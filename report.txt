@@ -1,7 +1,7 @@
 CEC-CS-C18 27-01-20
 Remya R Pillai
 
-#1: familiarisation of linux commands
+#1: Familiarisation of linux commands
 Basic commands
 
 Input:
