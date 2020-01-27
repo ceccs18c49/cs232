@@ -1,0 +1,60 @@
+CEC-CS-C18 27-01-20
+Remya R Pillai
+
+#1: familiarisation of linux commands
+Basic commands
+
+Input:
+Output: $ script work.txt
+Script started, file is work.txt
+$ls -l
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 09:20 work.txt
+$ ls -c
+work.txt
+$ ls -ltr
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 09:20 work.txt
+$ alias ls="ls-l"
+
+$ cat > abc.txt
+ubuntu 
+linux 
+ftp
+git
+github^Z
+$ cat > xyz.txt
+1
+2
+3
+4
+$ cat > abc.txt
+indigo
+emriates
+kingfisher
+airindia
+$ sort -n abc.txt
+airindia
+emriates
+indigo
+kingfisher
+$ sort -n xyz.txt
+1
+2
+3
+4
+$ paste xyz.txt abc.txt
+1	indigo
+2	emriates
+3	kingfisher
+4	airindia
+$ grep "i" abc.txt
+indigo
+emriates
+kingfisher
+airindia
+exit
+exit
+There are stopped jobs
+
+

@@ -1,0 +1,143 @@
+Script started on Monday 27 January 2020 09:20:29 AM IST
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ls-[K -l
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 09:20 work.txt
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ e[Kls -c
+work.txt
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ls -ltr
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 09:20 work.txt
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ alias ls="ls-l"
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ check ip=ifconfig
+No command 'check' found, did you mean:
+ Command 'vcheck' from package 'vcheck' (universe)
+ Command 'chuck' from package 'chuck' (universe)
+ Command 'mcheck' from package 'mtools' (main)
+ Command 'acheck' from package 'acheck' (universe)
+ Command 'icheck' from package 'icheck' (universe)
+ Command 'hcheck' from package 'ganeti' (universe)
+ Command 'hcheck' from package 'ganeti-htools' (universe)
+ Command 'fcheck' from package 'fcheck' (universe)
+check: command not found
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ifconfig
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:da:97  
+          inet addr:192.168.0.80  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::95ff:dd11:1a04:be5e/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:18088 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1220 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4174274 (4.1 MB)  TX bytes:93970 (93.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:568 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:568 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:41952 (41.9 KB)  TX bytes:41952 (41.9 KB)
+
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ 192.[K[K[K[Kls -lk
+ls-l: command not found
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ls -lk
+ls-l: command not found
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ls -lk[K[K[K[K[K[Kifconfigcheck ip=ifconfig[2Palias ls="ls-l"[8Pls -ltralias ls="ls-l"
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ [K]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls-l'
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ~[K~b[K /.bash_a;[Kliases
+bash: /home/s4c2: Is a directory
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ cat > abc.txt
+ubuntu 
+linux 
+ftp
+git
+github^Z
+[1]+  Stopped                 cat > abc.txt
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ cat > abc.txt
+l hfhd    gi rep
+sort ^C
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ sort -n an[Kbc.txt
+grep
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ cat >xy[K[K xyz.tzt[K[Kxt
+1
+2
+3
+4
+^C
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ car[Kt >abc.txt[K[K[K[K[K[K[K abc.txt
+indigo
+emriates
+kingfisher
+airindia
+^C
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ sory[Kt -n abc.txt
+airindia
+emriates
+indigo
+kingfisher
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ sort -n xyz.txt
+1
+2
+3
+4
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ jp[Koin xyz.txt abc.txt
+join: abc.txt:2: is not sorted: emriates
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ patse[K[K[Kste xyz.txt an[Kbc.txt
+1	indigo
+2	emriates
+3	kingfisher
+4	airindia
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ filed [K[K[K[K[Keild of filr[1Pr[1Pr[1Pr[1Pr[1Pr[1Pr[1Pr[1Pr[1Pr[1Pr[1Prirerlrdr rorfr rfrirlrer r[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ h[Kgrep -1
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ ge[Krep ubunt[K[K[K[K[K"i" abc.txt
+[01;31m[Ki[m[Knd[01;31m[Ki[m[Kgo
+emr[01;31m[Ki[m[Kates
+k[01;31m[Ki[m[Kngf[01;31m[Ki[m[Ksher
+a[01;31m[Ki[m[Kr[01;31m[Ki[m[Knd[01;31m[Ki[m[Ka
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ cut -i[K[K"i" abc.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -s
+ls-l: command not found
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ s[Kexit[K[K[K[Kexit
+exit
+There are stopped jobs.
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ gedit report.txt
+Script started, file is work.txt
+^C
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ git init
+The program 'git' is currently not installed. To run 'git' please ask your administrator to install the package 'git'
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ sftp cs18c49@192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c49@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 2701
+sftp> cd 2701
+sftp> put work.tct[K[Kxt
+Uploading work.txt to /home/cs18c49/2701/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100% 4096     4.0KB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c49/2701/report.txt
+report.txt                                      0%    0     0.0KB/s   --:-- ETAreport.txt                                    100%  681     0.7KB/s   00:00    
+sftp> exit
+]0;s4c2@cc-Sy: ~/ceccs18c49/cs232/2701[01;32ms4c2@cc-Sy[00m:[01;34m~/ceccs18c49/cs232/2701[00m$ 
+]0;s4c2@cc-Sy: ~/ceccs18c49
