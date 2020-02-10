@@ -1,0 +1,40 @@
+CEC CS 18 C49
+Remya R Pillai
+
+--------------------------------
+#1: Scripting Tasks(t2)
+---------------------------------
+Command/Shell script/Program name
+    /Sx/script.sh
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+       #downloaded the result from KTU site
+       /Sx/result_CHN.pdf
+       #file having name of the student and register number
+       students.txt
+   --------------------------------
+Output: or Input & Output (whichever is applicable)
+
+       # File with sgpa of the students who attended the examinations and no of subjects failed.
+        /Sx/cgpa.txt
+-------------------
+Remarks if any:
+
+    Here 'x' is the 1 and 2 semesters.
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
