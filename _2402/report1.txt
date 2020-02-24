@@ -1,0 +1,32 @@
+CEC CS 18 c49
+Remya R Pillai
+
+--------------------------------
+#1: creating own webpage at our server-t9
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+wget http://192.168.0.30/cs17d/cs17d00
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+ 
+      The webpage can be viewed 
+      http://192.168.0.30/cs17d/cs18c49
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
