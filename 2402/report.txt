@@ -1,0 +1,88 @@
+CEC CS 18 c49
+Remya R Pillai
+
+--------------------------------
+#1: Networking Tasks-T3
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+       ifconfig
+       ifconfig -n
+       ifconfig -a
+       route -n
+       route add default gw192.168.0.30
+       ping 192.168.0.30
+       echo "namserver1.1.1.1" >>/etc/resolv.conf
+--------------------------------
+Output:  
+      ifconfig -a displays all the avaliable network interfaces 
+      route -n displays kernal routing table 
+      route add is used to add a new route to the table
+      route add default gw 192.168.0.30
+      echo "nameserver 1.1.1.1">>/etc/resolv.conf
+     
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: 
+-----------------------
+Input : Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	
+	sftp cs18c47@192.168.0.30
+	put report.txt
+	lcd ..
+	lpwd
+	get work.txt
+	rm work.txt
+	quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+	# sftp cs18c47@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put report.txt, upload report.txt
+
+	# lcd .., change local directory 
+
+	# lpwd, show local present working directory
+
+	# get work.txt, copy work.txt from host to local system
+
+	# rm work.txt, remove work.txt from host
+
+	# quit, quit current ftp session
+--------------------------------
+#3: task: ssh rsync,scp...
+-------------
+ Input :
+--------------  
+       ssh
+       rsync
+       scp
+Output:
+------------ 
+      ssh cs18c49@192.168.0.30 is used to open a secured network
+       rsync -av 2402/test/ is used to sync the files  across thw directories 
+      scp report.txt cs18c49@192.168.0.30 used to upload report.txt
+-------------
+
+
+
+
+

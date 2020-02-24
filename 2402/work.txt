@@ -1,0 +1,212 @@
+Script started on 2020-02-24 09:50:06+0530
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ifconfig
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.85  netmask 255.255.254.0  broadcast 192.168.1.255
+        inet6 fe80::e87b:12d6:41c:8d1  prefixlen 64  scopeid 0x20<link>
+        ether 8c:ec:4b:d6:5d:28  txqueuelen 1000  (Ethernet)
+        RX packets 110615  bytes 97438486 (97.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 35374  bytes 3105669 (3.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 14491  bytes 1123176 (1.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 14491  bytes 1123176 (1.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ifconfig -a
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.85  netmask 255.255.254.0  broadcast 192.168.1.255
+        inet6 fe80::e87b:12d6:41c:8d1  prefixlen 64  scopeid 0x20<link>
+        ether 8c:ec:4b:d6:5d:28  txqueuelen 1000  (Ethernet)
+        RX packets 110729  bytes 97451536 (97.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 35374  bytes 3105669 (3.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 14491  bytes 1123176 (1.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 14491  bytes 1123176 (1.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether ec:5c:68:5a:dd:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ifconfig -s
+Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
+enp1s0    1500   110802      0      0 0         35374      0      0      0 BMRU
+lo       65536    14651      0      0 0         14651      0      0      0 LRU
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ifconfig -v
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.85  netmask 255.255.254.0  broadcast 192.168.1.255
+        inet6 fe80::e87b:12d6:41c:8d1  prefixlen 64  scopeid 0x20<link>
+        ether 8c:ec:4b:d6:5d:28  txqueuelen 1000  (Ethernet)
+        RX packets 110899  bytes 97467129 (97.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 35374  bytes 3105669 (3.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 14651  bytes 1135496 (1.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 14651  bytes 1135496 (1.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ifconfig eth0
+eth0: error fetching interface information: Device not found
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp1s0
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp1s0
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ route add default gw <[K192.168.0.30 [A
+SIOCADDRT: Operation not permitted
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.505 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.634 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.771 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.688 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.761 ms
+64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.600 ms
+64 bytes from 192.168.0.2: icmp_seq=7 ttl=64 time=0.388 ms
+64 bytes from 192.168.0.2: icmp_seq=8 ttl=64 time=0.429 ms
+64 bytes from 192.168.0.2: icmp_seq=9 ttl=64 time=0.767 ms
+64 bytes from 192.168.0.2: icmp_seq=10 ttl=64 time=0.775 ms
+64 bytes from 192.168.0.2: icmp_seq=11 ttl=64 time=0.711 ms
+64 bytes from 192.168.0.2: icmp_seq=12 ttl=64 time=0.626 ms
+64 bytes from 192.168.0.2: icmp_seq=13 ttl=64 time=0.418 ms
+64 bytes from 192.168.0.2: icmp_seq=14 ttl=64 time=0.772 ms
+64 bytes from 192.168.0.2: icmp_seq=15 ttl=64 time=0.778 ms
+64 bytes from 192.168.0.2: icmp_seq=16 ttl=64 time=0.771 ms
+64 bytes from 192.168.0.2: icmp_seq=17 ttl=64 time=0.599 ms
+64 bytes from 192.168.0.2: icmp_seq=18 ttl=64 time=0.644 ms
+64 bytes from 192.168.0.2: icmp_seq=19 ttl=64 time=0.770 ms
+64 bytes from 192.168.0.2: icmp_seq=20 ttl=64 time=0.424 ms
+64 bytes from 192.168.0.2: icmp_seq=21 ttl=64 time=0.645 ms
+^C
+--- 192.168.0.2 ping statistics ---
+21 packets transmitted, 21 received, 0% packet loss, time 20468ms
+rtt min/avg/max/mdev = 0.388/0.641/0.778/0.136 ms
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ping google.com
+ping: google.com: Name or service not known
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ping www.google.com
+ping: www.google.com: Name or service not known
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ cat /etx[Kc/reso;[Klb[Kv.conf
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+search example.org
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ cat abc[K[K[K>>abc.txt
+helloe w world
+123
+43
+po ing^C
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ cat abc.txt
+hello world
+1233
+hellow world
+123
+43
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ tac zbc[K[K[Kabc.ta[Kxt
+43
+123
+hellow world
+1233
+hello world
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ echp[K0[Ko "namee[Kserver 1.1.1.1 ">>/etc/ reso;[Klv.conf
+bash: /etc/resolv.conf: Permission denied
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ssh cs18cs[K48[K9[K[K[K[K[K[K[K[Kcs18c49@192.168.0.30
+sshcs18c49@192.168.0.30: command not found
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ ssh ce[Ks18c49@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c49@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ ls
+lsllsjljhkhkj1002  2701  examples.desktop
+$ j cd 2402
+-sh: 2: lsllsjljhkhkjcd: not found
+$ cd^Z
+$ ^X  cd ..
+$ quit    
+
+
+
+
+
+$ $ $ $ $ $ quit
+-sh: 11: quit: not found
+$ Connection to 192.168.0.30 closed.
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ mkdir test
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ e[Krsync -av 2402/tex[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho"hello world">>a.txt
+echohello world: command not found
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ echp[Ko "hello worlf[Kd" >> a.txt
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ rsync -av 2402/test/
+sending incremental file list
+rsync: change_dir "/home/s4c2/ceccs18c49/cs232/2402//2402/test" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ rsync -av 2402/test/[Krsync -av 2402/test/[1P/test/[1P/test/[1P/test/[1P/test/1/test/0/test/0/test/2/test/
+sending incremental file list
+rsync: change_dir "/home/s4c2/ceccs18c49/cs232/2402//1002/test" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ scp e[Kreport.txt ce[Ks18c49@192.168.0. 30
+cp: cannot stat 'report.txt': No such file or directory
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ gedit report.txt
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs232/2402[00m$ stp [K[K[K[Kftp 192.168.0.30
+ftp: connect: Connection timed out
+ftp> `[Kcs18c49@192.168.0.30
+?Invalid command
+ftp> ^Z
+[1]+  Stopped                 ftp 192.168.0.30
+]0;s4c2@user-Vostro-3470: ~/ceccs18c49/cs232/2402[01;32ms4c2@user-Vostro-3470[00m:[01;34m~/ceccs18c49/cs
