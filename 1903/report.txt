@@ -1,0 +1,40 @@
+CEC CS 18 C49
+Remya R Pillai
+
+--------------------------------
+#1: Perl (t8) (2) 
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+            # Add two numbers program
+            /perl/add.pl
+   
+            # Access and array program
+            /perl/arry.pl
+
+            # To print "Hello world" program
+            /perl/helo.pl
+Output: 
+
+            # Output of the add program:
+            Enter two numbers:34
+            7
+            sum is 41
+  
+            # Output of the array program:
+            
+            c++
+            c
+            java
+            python
+            javascript
+
+
+ 
+-------------------
+Remarks if any:
+
+
+
+
