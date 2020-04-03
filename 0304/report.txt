@@ -1,0 +1,22 @@
+CEC CS 18 C49
+Remya R Pillai
+
+---------------------------------
+#1:  Meny drive calculator T6
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+  Calc.sh
+---------------------------------
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+  #screenshot showing calculator in action
+  scrnst.png
+-------------------
+Remarks if any:
+
+
