@@ -1,0 +1,287 @@
+Script started on 2020-04-30 22:34:13+0530
+]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ nano sysconf1[K[K[K[Kon1[Kf1.sh
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                     sysconf1.sh                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3d[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The currently logged user is        : $USER\n"[5d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current login name is           : $LOGNAME\n"[6d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current shell[19X[6;50H: $SHELL\n"[7d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current home directory          : $HOME\n"[8d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The operating system type           :"[9d[39m(B[muname -o[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current path setting             :$PATH\n"[11d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current working directory        :"[12d[39m(B[mpwd[13d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The number of users currently logged :"[14d[39m(B[mwho[22d[K[14;4H[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: sysconf1.sh                                                 [22;1H(B[m[22;32H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 12 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[14;4H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ chmod 777 sysconf1,[K.sh
+]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ ./sysconf1.sh
+ 
+ The currently logged user is        : ubuntu
+
+ 
+ The current login name is           : ubuntu
+
+ 
+ The current shell                   : /bin/bash
+
+ 
+ The current home directory          : /home/ubuntu
+
+ 
+ The operating system type           :
+GNU/Linux
+
+ The current path setting             :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+ The current working directory        :
+/home/ubuntu/ceccs18c49/cs232/_0105
+
+ The number of users currently logged :
+ubuntu   tty7         2020-04-30 21:04 (:0)
+]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ [K]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ [K]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ [K]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ nano sysconf2.sh
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;70H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                        sysconf2.sh                                                                   [1;149H(B[m[35d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[35;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[36;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[m[?12l[?25h[?25l[1;141H(B[0;7mModified(B[m[3d[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The operating system version,release number  :\n"[5d[34mcat[39m(B[m /etc/os-release[6d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n OPerating system kernel version[14X[6;58H:\n"[7d[39m(B[muname [32m-r[8d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n All available shells[25X[8;58H:\n"[9d[34mcat[39m(B[m /etc/shells[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n CPU information[30X[10;58H:\n"[11d[34mcat[39m(B[m /proc/cpuinfo[12d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Memory information[27X[12;58H:\n"[13d[34mcat[39m(B[m /proc/meminfo[14d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Hard disk information[25X[14;59H:\n"[15d[39m(B[mdf -h[16d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n File system (Mounted)[24X[16;58H:\n"[17d[39m(B[mmount [32m|[39m(B[m column -t[34d[K[18d[?12l[?25h[?25l[35;17H[21X[35;38H(B[0;7mM-D(B[m DOS Format[23X[35;75H(B[0;7mM-A(B[m Append      [97G        [112G(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[17G[21X[36;38H(B[0;7mM-M(B[m Mac Format[23X[36;75H(B[0;7mM-P(B[m Prepend[19X[36;112H(B[0;7m^T(B[m To Files[K[34d(B[0;7mFile Name to Write: sysconf2.sh                                                                                                                       [34;1H(B[m[34;32H[?12l[?25h[?25l[K[1;149H[1;141H(B[0;7m        (B[m[34;67H(B[0;7m[ Wrote 16 lines ](B[m[35;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[112G (B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[112G (B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next[34d[18d[?12l[?25h[?25l[34d[J[36;150H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ chmod sysconf2[C sysconf27 sysconf27 sysconf27 sysconf2b sysconf2[1P sysconf2[C sysconf2[1Psysconf2[C[C[C[C[C[C[C[C[C.sh
+]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ ./sysconf2.sh
+
+ The operating system version,release number  :
+
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.2 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+ OPerating system kernel version              :
+
+4.15.0-45-generic
+
+ All available shells                         :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+ CPU information                              :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x2b
+cpu MHz		: 1422.955
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm ida arat pln pts flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4389.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x2b
+cpu MHz		: 1615.655
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm ida arat pln pts flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4389.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x2b
+cpu MHz		: 1485.314
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm ida arat pln pts flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4389.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x2b
+cpu MHz		: 1566.780
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap intel_pt xsaveopt dtherm ida arat pln pts flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4389.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information                           :
+
+MemTotal:        3949260 kB
+MemFree:          552780 kB
+MemAvailable:    1524124 kB
+Buffers:          120476 kB
+Cached:          1299196 kB
+SwapCached:            0 kB
+Active:          2205364 kB
+Inactive:         928200 kB
+Active(anon):    1722072 kB
+Inactive(anon):   265536 kB
+Active(file):     483292 kB
+Inactive(file):   662664 kB
+Unevictable:          64 kB
+Mlocked:              64 kB
+SwapTotal:       4881404 kB
+SwapFree:        4881404 kB
+Dirty:                76 kB
+Writeback:             0 kB
+AnonPages:       1714248 kB
+Mapped:           510696 kB
+Shmem:            273504 kB
+Slab:             114872 kB
+SReclaimable:      63420 kB
+SUnreclaim:        51452 kB
+KernelStack:       12400 kB
+PageTables:        64480 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6856032 kB
+Committed_AS:    9047408 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      224900 kB
+DirectMap2M:     3878912 kB
+DirectMap1G:     1048576 kB
+
+ Hard disk information                         :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           386M  3.3M  383M   1% /run
+/dev/sda6        28G   13G   14G  47% /
+tmpfs           1.9G  114M  1.8G   6% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/loop0       90M   90M     0 100% /snap/core/8268
+/dev/loop1      141M  141M     0 100% /snap/gnome-3-26-1604/98
+/dev/loop3       87M   87M     0 100% /snap/core/4917
+/dev/loop6      141M  141M     0 100% /snap/gnome-3-26-1604/70
+/dev/loop2       45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop4       55M   55M     0 100% /snap/core18/1650
+/dev/loop5       35M   35M     0 100% /snap/gtk-common-themes/319
+/dev/sda8       6.7G  2.6G  3.8G  41% /home
+tmpfs           386M  104K  386M   1% /run/user/1000
+
+ File system (Mounted)                        :
+
+sysfs                                             on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                              on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                              on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=1953024k,nr_inodes=488256,mode=755)
+devpts                                            on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                             on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=394928k,mode=755)
+/dev/sda6                                         on  /                                type  ext4             (rw,relatime,errors=remount-ro,data=ordered)
+securityfs                                        on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                             on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                             on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                             on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup                                            on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                            on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                            on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup                                            on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                            on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                            on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                            on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup                                            on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                            on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                            on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup                                            on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                            on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                            on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup                                            on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+systemd-1                                         on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=25,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=1293)
+hugetlbfs                                         on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+fusectl                                           on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+debugfs                                           on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+mqueue                                            on  /dev/mqueue                      type  mqueue           (rw,relatime)
+configfs                                          on  /sys/kernel/config               type  configfs         (rw,relatime)
+/var/lib/snapd/snaps/core_8268.snap               on  /snap/core/8268                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-26-1604_98.snap      on  /snap/gnome-3-26-1604/98         type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_4917.snap               on  /snap/core/4917                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-26-1604_70.snap      on  /snap/gnome-3-26-1604/70         type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap  on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1650.snap             on  /snap/core18/1650                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_319.snap   on  /snap/gtk-common-themes/319      type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/dev/sda8                                         on  /home                            type  ext4             (rw,relatime,data=ordered)
+binfmt_misc                                       on  /proc/sys/fs/binfmt_misc         type  binfmt_misc      (rw,relatime)
+tmpfs                                             on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=394924k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse                                        on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;ubuntu@ubuntu-Inspiron-3543: ~/ceccs18c49/cs232/_0105[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/ceccs18c49/cs232/_0105[00m$ exit[K[K[Kxit
+exit
+
+Script done on 2020-04-30 22:46:17+0530

@@ -1,0 +1,67 @@
+CEC CS 18 C49          
+Remya R Pillai
+
+--------------------------------
+#1:Shell Programming(S4)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+    sysconf1.sh  #Shell script
+
+
+--------------------------------
+Output: 
+
+         scrnst.png contains the screenshot of shell script showing various system configurations like :
+         
+          #Currently logged user and his login name
+
+          #Your current shell 
+       
+          #Your home diretory
+
+          #Your operating system type
+
+          #Your current path setting
+
+          #Your current working directory
+
+          #Number of users currently logged in
+
+
+-------------------
+Remarks if any:
+
+-------------------------------------
+-------------------------------------
+
+#2:Shell  Programming(S5)
+
+
+-------------------------------------
+
+
+               sysconf2.sh  #Shell script used
+
+---------------------------
+
+Output:
+-----------------------
+
+         #OS and version, release number, kernel version
+         #All available shells
+         #Computer CPU information like processor type,speed etc
+         #Memory information
+         #Hard disk information like size of hard disk,cache memory,model,etc
+         #File system (Mounted)
+---------------------
+
+Remarks if any:
+
+--------------------------------
+
+--------------------------------
+
+
